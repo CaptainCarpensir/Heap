@@ -25,7 +25,7 @@ int main()
 	for(int i = min; i <= max; i += inc)
 	{
 		//Create array w/ random numbers;
-    	for(int k = 0; k < i; k++) 
+		for(int k = 0; k < i; k++) 
 		{
 			arr_to_sort[k] = rand();
 		}
@@ -52,6 +52,6 @@ int main()
 
 	file.close();
 
-    return 0;
+	return 0;
 }
 
